@@ -1,0 +1,55 @@
+{
+    "name": "Droney vs Evil Drone",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "animation": "*",
+        "arcade-sprite-data": "github:microsoft/arcade-sprite-data#v0.2.1",
+        "controller": "*",
+        "multiplayer": "*",
+        "sprite-scaling": "*",
+        "Color Fading": "github:jwunderl/pxt-color#v0.2.3",
+        "arcade-story": "github:microsoft/arcade-storytelling#v1.0.3",
+        "Makey Makey Keymappings": "github:joylabz/makeymakey-makecode-arcade-extension#1.0.3",
+        "radio-broadcast": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "images.g.jres",
+        "images.g.ts",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.13.57",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj",
+    "palette": [
+        "#000000",
+        "#000000",
+        "#6E6E6E",
+        "#66A1FF",
+        "#0011FF",
+        "#746487",
+        "#FCFCFC",
+        "#949494",
+        "#404040",
+        "#FF0000",
+        "#FF7A7A",
+        "#00FF1E",
+        "#700000",
+        "#FF5252",
+        "#525252",
+        "#C7C7C7"
+    ]
+}
