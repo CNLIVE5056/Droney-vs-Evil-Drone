@@ -336,12 +336,12 @@ forever(function () {
         ab.setFlag(SpriteFlag.AutoDestroy, true)
         ab.vy += randint(-10, 10)
     }
-    if (chase_bot == 0 && TimeControlMathPi >= 101 * Math.PI) {
+    if (chase_bot <= 0 && TimeControlMathPi >= 101 * Math.PI) {
         chase_bot = 1
         mySprite2 = sprites.create(assets.image`myImage7`, SpriteKind.dfs)
         mySprite2.follow(Droney, 50)
     }
-    if (TimeControlMathPi <= 130.1 * Math.PI) {
+    if (TimeControlMathPi > 130.1 * Math.PI) {
         sprites.destroyAllSpritesOfKind(SpriteKind.dfs)
     }
     if (TimeControlMathPi >= 131 * Math.PI && TimeControlMathPi <= 139 * Math.PI) {
