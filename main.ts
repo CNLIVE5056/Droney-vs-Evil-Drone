@@ -228,6 +228,14 @@ let Droney: Sprite = null
 let EvilDroneHp = 0
 let Evil_Drone: Sprite = null
 let sd = 0
+let mySprite14 = sprites.create(assets.image`myImage11`, SpriteKind.Projectile)
+animation.runImageAnimation(
+mySprite14,
+assets.animation`myAnim1`,
+800,
+true
+)
+mySprite14.setPosition(93, 112)
 music.stopAllSounds()
 music.setVolume(255)
 music.play(music.createSong(assets.song`mySong`), music.PlaybackMode.LoopingInBackground)
@@ -235,6 +243,7 @@ scene.setBackgroundImage(assets.image`myImage1`)
 game.setGameOverPlayable(false, music.melodyPlayable(music.wawawawaa), false)
 game.setGameOverPlayable(true, music.melodyPlayable(music.powerUp), false)
 pauseUntil(() => controller.A.isPressed())
+sprites.destroyAllSpritesOfKind(SpriteKind.Projectile)
 music.stopAllSounds()
 music.setVolume(50)
 music.play(music.createSong(assets.song`background`), music.PlaybackMode.LoopingInBackground)
