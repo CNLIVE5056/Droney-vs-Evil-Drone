@@ -235,7 +235,7 @@ assets.animation`myAnim1`,
 800,
 true
 )
-mySprite14.setPosition(93, 112)
+mySprite14.setPosition(92, 112)
 music.stopAllSounds()
 music.setVolume(255)
 music.play(music.createSong(assets.song`mySong`), music.PlaybackMode.LoopingInBackground)
