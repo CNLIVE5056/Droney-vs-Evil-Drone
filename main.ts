@@ -278,6 +278,12 @@ buff = 1
 info.setLife(30)
 TimeControlMathPi = 0 * Math.PI
 let Pause = sprites.create(assets.image`myImage16`, SpriteKind.info)
+animation.runImageAnimation(
+Pause,
+assets.animation`myAnim3`,
+800,
+true
+)
 Pause.setPosition(142, 112)
 forever(function () {
     if (Droney.x < 0) {
