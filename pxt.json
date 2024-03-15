@@ -1,5 +1,5 @@
 {
-    "name": "Droney vs Evil Drone Saga",
+    "name": "Droney vs Evil Drone",
     "version": "0.0.1",
     "description": "",
     "dependencies": {
@@ -28,7 +28,7 @@
         "test.ts"
     ],
     "targetVersions": {
-        "target": "1.12.47",
+        "target": "1.12.49",
         "targetId": "arcade"
     },
     "supportedTargets": [
