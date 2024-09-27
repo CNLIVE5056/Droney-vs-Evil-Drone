@@ -1,4 +1,4 @@
-// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.12.56/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"1.0.0","target":"arcade","targetVersion":"1.12.56","repo":"cnlive5056/droney-vs-evil-drone"}
+// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.12.56/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"1.0.1","target":"arcade","targetVersion":"1.12.56","repo":"cnlive5056/droney-vs-evil-drone"}
 // total=4088793 new=46.50% cached=50.63% other=2.87%
 (function (ectx) {
 'use strict';
@@ -651,7 +651,7 @@ const pxsim_pxtrt = pxsim.pxtrt;
 const pxsim_numops = pxsim.numops;
 
 
-function _main___P64096(s) {
+function _main___P64245(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -1679,13 +1679,13 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-_main___P64096.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"pxt_modules/Makey Makey Keymappings/main.ts","functionName":"<main>","argumentNames":[]}
-_main___P64096.continuations = [  ]
+_main___P64245.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"pxt_modules/Makey Makey Keymappings/main.ts","functionName":"<main>","argumentNames":[]}
+_main___P64245.continuations = [  ]
 
-function _main___P64096_mk(s) {
+function _main___P64245_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: _main___P64096, depth: s.depth + 1,
+        parent: s, fn: _main___P64245, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -83851,5 +83851,5 @@ const sprites_BaseSpriteSayRenderer__C34531_VT = mkVTable({
 
 const breakpoints = setupDebugger(1, ["transparency16___37515","a___37457","bac___37458","ll___37459","gt___37460","dfs___37461","pl___37462","ccacc___37463","dd___37464","mmm___37465","dfd___37466","b___37467","lol___37468","dddddd___37469","yjy___37470","kuk___37471","mode___37472","info___37473","buff___37504","EvilDroneHp___37507","TimeControlMathPi___37503","s___37502","Droney___37506","ss___37501","sss___37500","t___37499","mySprite8___37498","bb___37497","c___37505","Evil_Drone___37508","sd___37509","mySprite14___37510","mySprite11___37511","Pause___37512","sas___37496","mySprite___37495","aaa___37494","aaaa___37493","_as___37492","aaaaa___37491","ab___37490","chase_bot___37489","mySprite2___37488","mySprite3___37487","mySprite4___37486","wa___37485","mySprite5___37484","mySprite6___37483","zcz___37482","mySprite7___37481","dy___37480","dx___37479","mySprite9___37478","mySprite10___37477","mySprite12___37476","credits___37475","mySprite13___37474"])
 
-return _main___P64096
+return _main___P64245
 })
