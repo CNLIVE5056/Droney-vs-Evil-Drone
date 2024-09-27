@@ -28,13 +28,13 @@
         "test.ts"
     ],
     "targetVersions": {
-        "target": "1.12.51",
+        "target": "1.12.56",
         "targetId": "arcade"
     },
     "supportedTargets": [
         "arcade"
     ],
-    "preferredEditor": "blocksprj",
+    "preferredEditor": "tsprj",
     "palette": [
         "#000000",
         "#000000",
