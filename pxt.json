@@ -11,7 +11,6 @@
         "sprite-scaling": "*",
         "Color Fading": "github:jwunderl/pxt-color#v0.2.3",
         "arcade-story": "github:microsoft/arcade-storytelling#v1.0.3",
-        "Makey Makey Keymappings": "github:joylabz/makeymakey-makecode-arcade-extension#1.0.3",
         "radio-broadcast": "*"
     },
     "files": [
@@ -28,7 +27,7 @@
         "test.ts"
     ],
     "targetVersions": {
-        "target": "1.12.56",
+        "target": "1.12.58",
         "targetId": "arcade"
     },
     "supportedTargets": [
